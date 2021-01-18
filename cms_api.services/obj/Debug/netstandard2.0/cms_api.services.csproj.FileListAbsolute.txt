@@ -1,0 +1,12 @@
+C:\Sachin\central_api\cms_api\cms_api.services\bin\Debug\netstandard2.0\cms_api.services.deps.json
+C:\Sachin\central_api\cms_api\cms_api.services\bin\Debug\netstandard2.0\cms_api.services.dll
+C:\Sachin\central_api\cms_api\cms_api.services\bin\Debug\netstandard2.0\cms_api.services.pdb
+C:\Sachin\central_api\cms_api\cms_api.services\bin\Debug\netstandard2.0\cms_api.entities.dll
+C:\Sachin\central_api\cms_api\cms_api.services\bin\Debug\netstandard2.0\cms_api.entities.pdb
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.csprojAssemblyReference.cache
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.AssemblyInfoInputs.cache
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.AssemblyInfo.cs
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.csproj.CopyComplete
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.dll
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.pdb
+C:\Sachin\central_api\cms_api\cms_api.services\obj\Debug\netstandard2.0\cms_api.services.csproj.CoreCompileInputs.cache

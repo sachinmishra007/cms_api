@@ -1,0 +1,9 @@
+C:\Sachin\central_api\cms_api\cms_api.entities\bin\Debug\netstandard2.0\cms_api.entities.deps.json
+C:\Sachin\central_api\cms_api\cms_api.entities\bin\Debug\netstandard2.0\cms_api.entities.dll
+C:\Sachin\central_api\cms_api\cms_api.entities\bin\Debug\netstandard2.0\cms_api.entities.pdb
+C:\Sachin\central_api\cms_api\cms_api.entities\obj\Debug\netstandard2.0\cms_api.entities.csprojAssemblyReference.cache
+C:\Sachin\central_api\cms_api\cms_api.entities\obj\Debug\netstandard2.0\cms_api.entities.AssemblyInfoInputs.cache
+C:\Sachin\central_api\cms_api\cms_api.entities\obj\Debug\netstandard2.0\cms_api.entities.AssemblyInfo.cs
+C:\Sachin\central_api\cms_api\cms_api.entities\obj\Debug\netstandard2.0\cms_api.entities.csproj.CoreCompileInputs.cache
+C:\Sachin\central_api\cms_api\cms_api.entities\obj\Debug\netstandard2.0\cms_api.entities.dll
+C:\Sachin\central_api\cms_api\cms_api.entities\obj\Debug\netstandard2.0\cms_api.entities.pdb
