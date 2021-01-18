@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BrGsC+ZODYUuRroVCyKV6WRJxpQYtBPbYGPvV/bFyi4cLgFec52+nzZRJJapoEy2SjaCU+rlXQttg5D8l/fFRg==",
+  "dgSpecHash": "9Sb+cVbVQyTVVPVFlt1IHCucApTvwNhNIvsLx18H0+W8JKMTzgOSQHkJRhxV7dzSgtdBXRvvKIXu+9Z6HVnE+w==",
   "success": true,
-  "projectFilePath": "C:\\Sachin\\central_api\\cms_api\\cms_api\\cms_api.csproj",
+  "projectFilePath": "C:\\Sachin\\Angular8\\cms_api\\cms_api\\cms_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sachin.Mishra\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Sachin.Mishra\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"

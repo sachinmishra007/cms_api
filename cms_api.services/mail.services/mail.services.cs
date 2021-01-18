@@ -19,8 +19,8 @@ namespace cms_api.services
         {
             try
             {
-                mailEntities.from = _configuration.GetSection("mailInfo").GetSection("from").Value;
-                string password = _configuration.GetSection("mailInfo").GetSection("password").Value;
+                mailEntities.from = _configuration.GetSection("from").Value;
+                string password = _configuration.GetSection("password").Value;
                 MailMessage message = new MailMessage();
                 SmtpClient smtp = new SmtpClient();
                 message.From = new MailAddress(mailEntities.from);

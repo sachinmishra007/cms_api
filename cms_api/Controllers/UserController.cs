@@ -36,7 +36,7 @@ namespace cms_api.Controllers
         {
             //Informing Site Owner
             entities.message = _mailServices.getInformMessageBody(entities);
-            entities.to = _configuration.GetValue<string>("mailInfo:email");
+            entities.to = _configuration.GetValue<string>("email");
             var _result = _mailServices.sendNotificationMail(entities);
 
 
@@ -53,13 +53,16 @@ namespace cms_api.Controllers
         [HttpGet("health")]
         public IActionResult health()
         {
-            return Ok("csm api service is running");
+            string value1 = _configuration.GetValue<string>("from");
+            string value2 = _configuration.GetSection("password").Value;
+            string value3 = _configuration.GetSection("email").Value;
+            return Ok("csm api service is running" + " val1 : " + value1 + " val2:" + value2 + " val3:" + value3);
         }
 
         [HttpPost("display/{name}")]
         public IActionResult display(string name)
         {
-            return Ok("Name : "+name);
+            return Ok("Name : " + name);
         }
 
     }

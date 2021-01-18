@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sachin\\central_api\\cms_api\\cms_api.services\\cms_api.services.csproj": {}
+    "C:\\Sachin\\Angular8\\cms_api\\cms_api.services\\cms_api.services.csproj": {}
   },
   "projects": {
-    "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\cms_api.entities.csproj": {
+    "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\cms_api.entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\cms_api.entities.csproj",
+        "projectUniqueName": "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\cms_api.entities.csproj",
         "projectName": "cms_api.entities",
-        "projectPath": "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\cms_api.entities.csproj",
+        "projectPath": "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\cms_api.entities.csproj",
         "packagesPath": "C:\\Users\\Sachin.Mishra\\.nuget\\packages\\",
-        "outputPath": "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\obj\\",
+        "outputPath": "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Sachin\\central_api\\cms_api\\cms_api.services\\cms_api.services.csproj": {
+    "C:\\Sachin\\Angular8\\cms_api\\cms_api.services\\cms_api.services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sachin\\central_api\\cms_api\\cms_api.services\\cms_api.services.csproj",
+        "projectUniqueName": "C:\\Sachin\\Angular8\\cms_api\\cms_api.services\\cms_api.services.csproj",
         "projectName": "cms_api.services",
-        "projectPath": "C:\\Sachin\\central_api\\cms_api\\cms_api.services\\cms_api.services.csproj",
+        "projectPath": "C:\\Sachin\\Angular8\\cms_api\\cms_api.services\\cms_api.services.csproj",
         "packagesPath": "C:\\Users\\Sachin.Mishra\\.nuget\\packages\\",
-        "outputPath": "C:\\Sachin\\central_api\\cms_api\\cms_api.services\\obj\\",
+        "outputPath": "C:\\Sachin\\Angular8\\cms_api\\cms_api.services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,8 +98,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\cms_api.entities.csproj": {
-                "projectPath": "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\cms_api.entities.csproj"
+              "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\cms_api.entities.csproj": {
+                "projectPath": "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\cms_api.entities.csproj"
               }
             }
           }

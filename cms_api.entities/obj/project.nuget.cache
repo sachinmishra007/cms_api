@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "htuAc6r9neVKBW2oR5mvL726pr5Z24e0dGhjm3anXLTosojcCRvJbCChSAXKQAJfV4cSnex24XhSf9dol7qaZA==",
+  "dgSpecHash": "asKEbCJoxfOTiDcWxIvinceAPqyACFKYr1E1A0/3jzia+80W6VFLG15y92ByBhYXuinu3nP5dvQ5xQVNDenoSg==",
   "success": true,
-  "projectFilePath": "C:\\Sachin\\central_api\\cms_api\\cms_api.entities\\cms_api.entities.csproj",
+  "projectFilePath": "C:\\Sachin\\Angular8\\cms_api\\cms_api.entities\\cms_api.entities.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
