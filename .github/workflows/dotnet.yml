@@ -1,0 +1,32 @@
+name: .NET
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: App Settings Variable Substitution
+      uses: microsoft/variable-substitution@v1
+      with:
+        files: '${{env.DOTNET_ROOT}}/cms_api/appsettings.json'
+      env:
+        mailInfo.from: ${{ secrets.app_from }}
+        mailInfo.password: ${{ secrets.app_pwd }}
+        mailInfo.email: ${{ secrets.app_email }}
+    - name: Build
+      run: dotnet build --no-restore
+    
