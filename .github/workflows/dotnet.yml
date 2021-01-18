@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        env:
+          DOCKER_EMAIL: ${{ secrets.APP_EMAIL }}   
+          DOCKER_PASSWORD: ${{ secrets.APP_PWD }}    
+          DOCKER_FROM: ${{ secrets.APP_FROM }}    
       - uses: akhileshns/heroku-deploy@v3.8.9 # This is the action
         with:
           heroku_api_key: ${{secrets.APP_KEY}}
