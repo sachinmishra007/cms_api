@@ -1,0 +1,16 @@
+name: Deploy App
+on:
+  push:
+    branches:
+      - master # Changing the branch here would also work
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.8.9 # This is the action
+        with:
+          heroku_api_key: ${{secrets.APP_KEY}}
+          heroku_app_name:  ${{secrets.APP_NAME}} #Must be unique in Heroku
+          heroku_email:  ${{secrets.APP_USERNAME}}
+          usedocker: true
