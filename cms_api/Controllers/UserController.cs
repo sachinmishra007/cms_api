@@ -52,11 +52,8 @@ namespace cms_api.Controllers
 
         [HttpGet("health")]
         public IActionResult health()
-        {
-            string value1 = _configuration.GetValue<string>("from");
-            string value2 = _configuration.GetSection("password").Value;
-            string value3 = _configuration.GetSection("email").Value;
-            return Ok("csm api service is running" + " val1 : " + value1 + " val2:" + value2 + " val3:" + value3);
+        { 
+            return Ok("csm api service is running");
         }
 
         [HttpPost("display/{name}")]
