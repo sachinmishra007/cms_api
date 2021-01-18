@@ -21,4 +21,4 @@ COPY --from=build-env /app/out .
 # e.g. MyProject.dll
 # ENTRYPOINT [ "dotnet","cms_api.dll" ] 
 # escape=$
-CMD email="$DOCKER_EMAIL" from="$DOCKER_FROM" password="$DOCKER_PASSWORD" ASPNETCORE_URLS=http://*:$PORT  dotnet cms_api.dll  
+CMD email="sachinmishra609@gmail.com" from="noreply.asm.007@gmail.com" password="sachinmishr@7861234" ASPNETCORE_URLS=http://*:$PORT  dotnet cms_api.dll  

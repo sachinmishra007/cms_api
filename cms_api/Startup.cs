@@ -33,7 +33,10 @@ namespace cms_api
                 options.AddPolicy(name: enableSurge,
                                   builder =>
                                   {
-                                      builder.WithOrigins("https://sm-cka.surge.sh/");
+                                      builder
+                                      .WithOrigins("https://sm-cka.surge.sh", "http://sm-cka.surge.sh", "https://surge.sh")
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader();
                                   });
             });
 
